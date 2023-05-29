@@ -1,0 +1,6 @@
+[{'x': 345, 'y': 2241, 'width': 67, 'height': 148, 'label': 'car01'},
+ {'x': 343, 'y': 2084, 'width': 62, 'height': 120, 'label': 'car02'},
+ {'x': 337, 'y': 1943, 'width': 59, 'height': 95, 'label': 'car03'},
+ {'x': 341, 'y': 1507, 'width': 61, 'height': 110, 'label': 'car04'},
+ {'x': 328, 'y': 1299, 'width': 73, 'height': 120, 'label': 'car05'},
+ {'x': 325, 'y': 1095, 'width': 73, 'height': 164, 'label': 'car06'}]
