@@ -1,0 +1,9 @@
+{'x': 1.69 , 'y': 8.15 , 'width': 1.38 , 'height':  3.21 , 'label': 'car01'}
+{'x': 1.69 , 'y': 12.77 , 'width': 1.38 , 'height':  4.04 , 'label': 'car02'}
+{'x': 2.17 , 'y': 20.71 , 'width': 1.35 , 'height':  2.99 , 'label': 'car03'}
+{'x': 2.71 , 'y': 25.7 , 'width': 1.43 , 'height':  5.13 , 'label': 'car04'}
+{'x': 4.05 , 'y': 33.09 , 'width': 1.11 , 'height':  3.62 , 'label': 'car05'}
+{'x': 5.22 , 'y': 38.16 , 'width': 1.45 , 'height':  3.79 , 'label': 'car06'}
+{'x': 6.8 , 'y': 43.44 , 'width': 1.59 , 'height':  4.28 , 'label': 'car07'}
+{'x': 8.1 , 'y': 48.67 , 'width': 1.2 , 'height':  2.72 , 'label': 'car08'}
+

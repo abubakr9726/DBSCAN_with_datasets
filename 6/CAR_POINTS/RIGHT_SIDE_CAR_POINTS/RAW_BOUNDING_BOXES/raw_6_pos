@@ -1,0 +1,10 @@
+[{'x': 483, 'y': 2746, 'width': 52, 'height': 128, 'label': 'car01'},
+ {'x': 490, 'y': 2526, 'width': 77, 'height': 164, 'label': 'car02'},
+ {'x': 471, 'y': 2304, 'width': 75, 'height': 142, 'label': 'car03'},
+ {'x': 455, 'y': 2126, 'width': 68, 'height': 127, 'label': 'car04'},
+ {'x': 433, 'y': 1927, 'width': 75, 'height': 149, 'label': 'car05'},
+ {'x': 402, 'y': 1715, 'width': 74, 'height': 151, 'label': 'car06'},
+ {'x': 371, 'y': 1485, 'width': 73, 'height': 171, 'label': 'car07'},
+ {'x': 341, 'y': 1263, 'width': 70, 'height': 150, 'label': 'car08'},
+ {'x': 321, 'y': 1138, 'width': 50, 'height': 80, 'label': 'car09'},
+ {'x': 298, 'y': 935, 'width': 65, 'height': 153, 'label': 'car10'}]

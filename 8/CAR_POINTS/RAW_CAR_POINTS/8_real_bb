@@ -1,0 +1,13 @@
+{'x': 1.09 , 'y': 3.99 , 'width': 1.19 , 'height':  3.21 , 'label': 'car01'}
+{'x': 1.59 , 'y': 8.63 , 'width': 1.18 , 'height':  2.87 , 'label': 'car02'}
+{'x': 1.55 , 'y': 13.02 , 'width': 1.11 , 'height':  2.7 , 'label': 'car03'}
+{'x': 1.62 , 'y': 16.89 , 'width': 1.25 , 'height':  3.23 , 'label': 'car04'}
+{'x': 3.15 , 'y': 31.22 , 'width': 1.3 , 'height':  3.82 , 'label': 'car05'}
+{'x': 3.94 , 'y': 35.78 , 'width': 0.87 , 'height':  3.02 , 'label': 'car06'}
+{'x': 4.63 , 'y': 39.85 , 'width': 1.25 , 'height':  3.09 , 'label': 'car07'}
+{'x': 6.4 , 'y': 47.72 , 'width': 0.81 , 'height':  3.55 , 'label': 'car08'}
+{'x': -1.71 , 'y': 16.93 , 'width': 1.57 , 'height':  3.31 , 'label': 'car09'}
+{'x': -0.16 , 'y': 31.55 , 'width': 1.67 , 'height':  3.55 , 'label': 'car010'}
+{'x': 2.12 , 'y': 38.65 , 'width': 1.23 , 'height':  3.02 , 'label': 'car011'}
+{'x': 2.68 , 'y': 42.93 , 'width': 1.36 , 'height':  3.5 , 'label': 'car012'}
+
