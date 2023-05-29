@@ -1,0 +1,47 @@
+#import tensorflow as tf
+#from tensorflow import keras
+import numpy as np
+import pandas as pd
+from sklearn.cluster import DBSCAN
+from collections import Counter
+from sklearn.preprocessing import StandardScaler
+import matplotlib.pyplot as plt
+import numpy
+import math
+from pylab import rcParams
+from jupyter_bbox_widget import BBoxWidget
+import ipywidgets as widgets
+import re
+rcParams['figure.figsize'] =14, 6
+%matplotlib inline
+
+dataset = 1
+car_path = "/home/lzr/notebook/car_detection/csv_files/Processed_Data/%d/CAR_POINTS/RAW_CAR_POINTS/CAR_POINTS.csv"  %dataset
+#car_path = "/home/lzr/notebook/car_detection/csv_files/Processed_Data/8/CAR_POINTS/RIGHT_SIDE_CAR_POINTS/RIGHT_POINTS/8_pos.csv"
+car = pd.read_csv(car_path, sep=',', header=None)
+car = car.drop([0], axis=1)
+trajectory_path = "/home/lzr/notebook/car_detection/csv_files/Processed_Data/%d/map/%d_TRAJECTORY.csv" %(dataset, dataset)
+trajectory = pd.read_csv(trajectory_path, sep=',', header=None)
+trajectory = trajectory.drop([1], axis=1)
+
+widget = BBoxWidget(
+    image='csv_files/Processed_Data/12/CAR_POINTS/RAW_CAR_POINTS/12.png',
+    classes=['car01', 'car02', 'car03', 'car04', 'car05', 'car06', 'car07', 'car08', 'car09', 'car10', 'car11', 'car12', 'car13', 'car14', 'car15', 'car16', 'car17', 'car18', 'car19', 'car20', 'car21', 'car22', 'car23', 'car24', 'car25'],
+)
+widget
+
+a = widget.bboxes
+a
+
+string = ''.join([str(item) for item in a])
+temp = re.findall(r'\d+', string)
+res = list(map(int, temp))
+#string = ''.join([str(item) for item in a])
+print(res)
+
+for i in range(0, len(res), 5):   
+    x_value = -10+0.5*math.ceil(((res[i]-32)/21.6))
+    y_value = 70-((res[i+1]-32)/41.114)
+    width = (-10+0.5*(((res[i+2]+res[i]-32)/21.6))) - x_value
+    height =  y_value - (70-((res[i+3]+res[i+1]-32)/41.114))
+    print("{'x':",round(x_value+width/2,2),", 'y':",round(y_value-height/2,2),", 'width':",round(width,2),", 'height': ",round(height,2), ", 'label': 'car0%d'}" %res[i+4])
