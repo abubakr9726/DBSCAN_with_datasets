@@ -1,0 +1,7 @@
+[{'x': 458, 'y': 2655, 'width': 72, 'height': 152, 'label': 'car01'},
+ {'x': 365, 'y': 1879, 'width': 69, 'height': 157, 'label': 'car02'},
+ {'x': 373, 'y': 1672, 'width': 62, 'height': 138, 'label': 'car03'},
+ {'x': 362, 'y': 1488, 'width': 53, 'height': 129, 'label': 'car04'},
+ {'x': 359, 'y': 1260, 'width': 63, 'height': 177, 'label': 'car05'},
+ {'x': 355, 'y': 1028, 'width': 63, 'height': 180, 'label': 'car06'},
+ {'x': 356, 'y': 845, 'width': 67, 'height': 118, 'label': 'car07'}]
